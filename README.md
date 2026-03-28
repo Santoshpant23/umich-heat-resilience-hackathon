@@ -9,6 +9,11 @@ We approached this challenge by iterating through multiple architectures, from s
 
 ---
 
+## 🔍 Qualitative Results
+Below is a representative example comparing the RGB drone input, ground-truth thermal image, baseline ThermalGen prediction, and our refined V2 output. The refinement model significantly improves structural sharpness and roof-level heat localization, producing outputs that better align with real urban heat signatures.
+
+![Qualitative Comparison](results/qualitative/qualitative_comparison_sample198.png)
+
 ## 🏗️ Core Architectures & Approaches
 To solve the translation problem with a highly constrained dataset (418 training images), our team developed and evaluated three distinct modeling strategies:
 
